@@ -106,7 +106,7 @@ BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS := \
-       device/elephone/p8000/sepolicy
+       device/mediatek/mt6753_common/sepolicy
 
 BOARD_SEPOLICY_UNION := \
     app.te \
