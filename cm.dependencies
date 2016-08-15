@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "android_packages_apps_Snap",
+    "target_path": "packages/apps/Snap",
+    "branch": "cm-12.1"
+  }
+]
