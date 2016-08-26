@@ -5,6 +5,7 @@ git apply -v ../../device/mediatek/mt6753_common/patches/framework_av/0001-libme
 git apply -v ../../device/mediatek/mt6753_common/patches/framework_av/0002-camera.patch
 git apply -v ../../device/mediatek/mt6753_common/patches/framework_av/0003-frameworks_av_fmradio_patch.patch
 git apply -v ../../device/mediatek/mt6753_common/patches/framework_av/0001_engineering_mode_audio_settings_frameworks_av.patch
+git apply -v ../../device/mediatek/mt6753_common/patches/framework_av/frameworks_av_videorecording_fix.patch
 cd ../..
 cd frameworks/base
 git apply -v ../../device/mediatek/mt6753_common/patches/framework_base/0001-location-support-GNSS-extension-presumably-from-MTK.patch
