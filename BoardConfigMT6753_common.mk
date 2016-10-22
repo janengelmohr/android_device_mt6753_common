@@ -7,7 +7,22 @@ TARGET_LDPRELOAD += libxlog.so
 TARGET_NO_BOOTLOADER := true
  
 # 1st architecture
+ifeq ($(TARGET_IS_MT6753), true)
 TARGET_BOARD_PLATFORM := mt6753
+endif
+
+ifeq ($(TARGET_IS_MT6735), true)
+TARGET_BOARD_PLATFORM := mt6735
+endif
+
+ifeq ($(TARGET_IS_MT6735P), true)
+TARGET_BOARD_PLATFORM := mt6735p
+endif
+
+ifeq ($(TARGET_IS_MT6735M), true)
+TARGET_BOARD_PLATFORM := mt6735m
+endif
+
 TARGET_ARCH := arm64
 TARGET_NO_BOOTLOADER := true
 TARGET_CPU_ABI := arm64-v8a
