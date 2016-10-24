@@ -136,6 +136,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml \
 	$(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
 
+# Set default player to AwesomePlayer
+PRODUCT_PROPERTY_OVERRIDES += persist.sys.media.use-awesome=true
+
 ADDITIONAL_DEFAULT_PROPERTIES += \
 	ro.secure=0 \
 	ro.allow.mock.location=1 \
