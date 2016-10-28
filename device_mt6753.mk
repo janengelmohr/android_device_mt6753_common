@@ -140,7 +140,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.media.use-awesome=true
 
 ADDITIONAL_DEFAULT_PROPERTIES += \
-	ro.allow.mock.location=1 \
 	persist.service.acm.enable=0 \
 	ro.oem_unlock_supported=1 \
 	persist.sys.usb.config=mtp
